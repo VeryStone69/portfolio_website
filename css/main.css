@@ -516,14 +516,14 @@ article time {
         height: auto;
         padding: 0;
     }
-
     .slides figure img, .slides figure.cover img {
-        max-height: auto;
+        max-height: none;
         position: relative;
         z-index: 1;
         width: auto;
         height: 100vh;
         object-fit: contain;
     }
+
 
 }
