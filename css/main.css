@@ -72,6 +72,7 @@ body {
     position: relative;
     max-width: 64em;  /* remove this for a full-width layout */
     margin: 0 auto;  /* centers the layout */
+
 }
 
 /* ------- Sections ------- */
@@ -273,6 +274,7 @@ figure figcaption {
     margin: 0.8em 0 0 0;
     font-size: .85em;
     opacity: .7;
+    width: 50%;
 }
 
 /* Responsive video embeds */
@@ -397,7 +399,7 @@ article time {
 }
 
 .slides figure {
-    height: 100vh;
+    height: 120vh;
     padding: 0 5vw;
     margin: 0;
     display: grid;
@@ -407,7 +409,8 @@ article time {
 }
 
 .slides figure img {
-    max-height: 88vh; /* Adjust if needed */
+    /*max-height: 88vh; !* Adjust if needed *!*/
+    max-height: 45vh; /* Adjust if needed */
 }
 
 .slides figure.cover {
