@@ -78,7 +78,7 @@ body {
 /* ------- Sections ------- */
 
 section {
-    padding: calc(6em + 5vw) 5vw 8vw 5vw;
+    /*padding: calc(6em + 5vw) 5vw 8vw 5vw;*/
     /* ! Everything below is needed ! */
     display: none;
     position: absolute;
@@ -92,8 +92,29 @@ section:target { /* Show section */
     display: block;
 }
 
-section#home { /* Show #home by default */
-    display: block;
+/*section#home { !* default style *!*/
+/*    display: block;*/
+/*}*/
+section#home { /* Show #home by default *!* */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: calc(6em + 5vw) 5vw 8vw 5vw;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background: var(--bgcolor);
+}
+
+section#home p {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+section#home img {
+    width: 18%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /* ------- Header ------- */
