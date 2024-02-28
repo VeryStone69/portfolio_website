@@ -4,24 +4,24 @@
 /* Media query for tablets */
 @media (max-width: 768px) {
     section#home {
-        flex-direction: column; /* Stack items vertically */
-        text-align: center; /* Center the text */
+        flex-direction: column;
+        text-align: center;
     }
 
     section#home p {
-        margin-right: 0; /* Remove the right margin */
-        margin-bottom: 2rem; /* Add some space below the paragraph */
+        margin-right: 0;
+        margin-bottom: 2rem;
     }
 
     section#home img {
-        width: 50%; /* Adjust the image size for tablets */
-        margin: 0 auto; /* Center the image */
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 480px) {
     section#home img {
-        width: 70%; /* Adjust the image size for mobile devices */
+        width: 70%;
     }
 }
