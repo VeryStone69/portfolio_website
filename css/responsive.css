@@ -1,1 +1,27 @@
 /*Стили для адаптивного дизайна, чтобы ваш сайт корректно отображался на различных устройствах.*/
+
+/* ====== Home ======= */
+/* Media query for tablets */
+@media (max-width: 768px) {
+    section#home {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center the text */
+    }
+
+    section#home p {
+        margin-right: 0; /* Remove the right margin */
+        margin-bottom: 2rem; /* Add some space below the paragraph */
+    }
+
+    section#home img {
+        width: 50%; /* Adjust the image size for tablets */
+        margin: 0 auto; /* Center the image */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    section#home img {
+        width: 70%; /* Adjust the image size for mobile devices */
+    }
+}
