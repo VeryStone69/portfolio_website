@@ -14,14 +14,18 @@
     }
 
     section#home img {
-        width: 50%;
+        width: 25%;
         margin: 0 auto;
     }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 480px) {
+    section#home {
+        flex-direction: column;
+        text-align: center;
+    }
     section#home img {
-        width: 70%;
+        width: 25%;
     }
 }
