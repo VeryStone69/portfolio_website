@@ -73,7 +73,64 @@ nav a:not(:last-of-type) {
     margin-right: 1.5vw;
 }
 
-/* ------- General ------- */
+/* ------- Form ------- */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--bgcolor);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+form label {
+    margin-top: 10px;
+    display: block;
+    color: var(--textcolor);
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form input[type="submit"] {
+    background: var(--highlight);
+    color: var(--bgcolor);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background: var(--highlight);
+    color: var(--bgcolor);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #2336d9; /* Слегка темнее оттенок синего, чем --highlight. */
+}
+
+/* ------- Header ------- */
 
 a {
     text-decoration: none;
