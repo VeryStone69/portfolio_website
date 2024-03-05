@@ -17,6 +17,11 @@
         width: 25%;
         margin: 0 auto;
     }
+    .IconContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Media query for mobile devices */
@@ -28,4 +33,13 @@
     section#home img {
         width: 25%;
     }
+    .IconContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section#contact {
+        display: flex;
+    }
+
 }
