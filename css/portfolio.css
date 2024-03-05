@@ -19,8 +19,22 @@ section#home figure {
         font-size: 100px;
     }
 }
-.IconContainer {
+.iconContainer {
     display: flex;
     justify-content: center;
 }
+.iconContainer > *:not(:last-child) {
+    margin-right: 10px;
+}
+.contactContainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+section#contact figure>h2 {
+    text-align: center;
+    font-size: revert;
+}
+
 
