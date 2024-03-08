@@ -91,6 +91,6 @@
         left: 37%;
     }
 }
-body, figcaption, h1, h2, h3, p, a {
-    color: var(--textcolor);
-}
+/*body, figcaption, h1, h2, h3, p, a {*/
+/*    color: var(--textcolor);*/
+/*}*/

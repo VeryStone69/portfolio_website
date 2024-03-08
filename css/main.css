@@ -17,6 +17,13 @@
         --highlight: #ffc400;
     }
 }
+@media (prefers-color-scheme: light) {
+    * {
+        --textcolor: #141414;
+        --bgcolor: #dadada;
+        --highlight: #ffc400;
+    }
+}
 
 body {
     font-size: 18px;
