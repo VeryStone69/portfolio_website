@@ -8,6 +8,10 @@
         text-align: center;
     }
 
+    section#home figure {
+        align-items: flex-start;
+    };
+
     section#home p {
         margin-right: 0;
         margin-bottom: 2rem;
@@ -15,7 +19,7 @@
 
     section#home img {
         width: 25%;
-        margin: 0 auto;
+        margin: 5% 0 0 0;
     }
 
     .IconContainer {
@@ -86,4 +90,7 @@
         position: absolute;
         left: 37%;
     }
+}
+body, h1, h2, h3, p, a {
+    color: var(--textcolor);
 }
