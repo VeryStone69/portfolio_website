@@ -37,7 +37,7 @@ section#home figure {
     left: 44%;
 }
 .slash {
-    color: #ffc400;
+    color: var(--highlight);
 }
 
 .aboutTitle {
