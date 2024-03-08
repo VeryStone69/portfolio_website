@@ -10,7 +10,7 @@
 
     section#home figure {
         align-items: flex-start;
-    };
+    }
 
     section#home p {
         margin-right: 0;
@@ -19,7 +19,7 @@
 
     section#home img {
         width: 25%;
-        margin: 5% 0 0 0;
+        margin: 15% 0 0 0;
     }
 
     .IconContainer {
@@ -27,57 +27,13 @@
         flex-direction: column;
         align-items: center;
     }
-    .cv-figcaption {
-        margin: 0.8em 0 0 0;
-        font-size: .85em;
-        opacity: .7;
-        width: 92%;
-}
 
-/* Media query for mobile devices */
-@media (max-width: 480px) {
-    h1 {
-        text-align: center;
-        font-size: larger;
-    }
-
-    section#home {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    section#home img {
-        width: 25%;
-    }
-
-    .iconContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-right: 0;
-    }
-
-    .iconContainer > *:not(:last-child) {
-        margin-right: 0px;
-    }
-
-    section#contact {
-        justify-content: center;
-    }
-
-    .myProjectsTitle {
-        position: absolute;
-        left: 37%;
-    }
     .cv-figcaption {
         margin: 0.8em 0 0 0;
         font-size: .85em;
         opacity: .7;
         width: 92%;
     }
-}
-
-@media (max-width: 768px) {
     h1 {
         text-align: center;
         font-size: larger;
@@ -102,11 +58,59 @@
         left: 37%;
     }
 
-   .cv-figcaption {
+}
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    h1 {
+        text-align: center;
+        font-size: larger;
+    }
+
+    section#home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    section#home img {
+        width: 25%;
+        float: right;
+        text-align: left;
+        margin: 5% 5% 5% 5%;
+    }
+    figure figcaption {
+        margin: 0.8em 0 0 0;
+        font-size: .85em;
+        opacity: .7;
+        width: 95%;
+    }
+    section#home figure {
+        display: inline-block;
+    }
+
+    .iconContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .iconContainer > *:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    section#contact {
+        justify-content: center;
+    }
+
+    .myProjectsTitle {
+        position: absolute;
+        left: 37%;
+    }
+
+    .cv-figcaption {
         margin: 0.8em 0 0 0;
         font-size: .85em;
         opacity: .7;
         width: 92%;
     }
-}
 }
