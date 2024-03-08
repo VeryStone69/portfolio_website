@@ -70,7 +70,7 @@ header h1 {
 }
 
 nav a:not(:last-of-type) {
-    margin-right: 1.5vw;
+    margin-right: 1vw;
 }
 
 /* ------- Form ------- */
@@ -79,6 +79,7 @@ form {
     margin: 20px auto;
     padding: 20px;
     background: var(--bgcolor);
+    border: 1px solid #ffc400;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
@@ -150,11 +151,11 @@ h2, h3, h4 {
     text-align: center;
     font-size: 1em;
     font-weight: 600;
-    margin: 1.6em 0 .6em 0;
+    margin: 1.3em 0 .6em 0;
 }
 
 p, ul, ol, article {
-    max-width: 60ch; /* Limit line-length to 60 characters */
+    max-width: 100ch; /* Limit line-length to 60 characters */
     margin-bottom: .6em;
 }
 

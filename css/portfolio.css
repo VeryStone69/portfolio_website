@@ -36,5 +36,11 @@ section#home figure {
     position: absolute;
     left: 44%;
 }
+.slash {
+    color: #ffc400;
+}
 
+.aboutTitle {
+    font-size: 50px;
+}
 
