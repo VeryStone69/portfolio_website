@@ -44,3 +44,7 @@ section#home figure {
     font-size: 50px;
 }
 
+.mainPageWords {
+    color: var(--mainPageWords);
+}
+
