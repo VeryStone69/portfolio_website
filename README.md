@@ -9,5 +9,5 @@ without the use of JS and various libraries and frameworks, ensuring high loadin
 <a href="https://pagespeed.web.dev/analysis/https-kaptsevich-site/exwvm8rcvo?form_factor=mobile"><b>PageSpeed Insights</b></a>
 </figcaption>
 </figure>
-Of course, such an approach might not suit large projects, but for small portfolios, business card websites, and similar projects,
-it's an excellent solution.
+<p>Of course, such an approach might not suit large projects, but for small portfolios, business card websites, and similar projects,
+it's an excellent solution.</p>
